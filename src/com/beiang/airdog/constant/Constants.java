@@ -137,7 +137,8 @@ public class Constants {
 			name = "JY300";
 			break;
 		case Device.DT_JY500:
-			name = "JY500";
+			//name = "JY500";
+			name = "JY500/JY550";
 			break;
 		case Device.DT_JY300S:
 			name = "JY 300";

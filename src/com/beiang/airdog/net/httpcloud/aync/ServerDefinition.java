@@ -6,11 +6,11 @@ public class ServerDefinition {
 	public static int API_ID = 1;
 	public final static double API_VERSION = 1.0;
 	public final static double API_JSONRPC = 2.0;
+	
 	//forrelease
 	public final static String API_KEY = "34b9a684f1fd61194026d92b7cf2a11c";
 	public final static String API_SECRET = "dc52bdb7601eafb7fa580e000f8d293f";
 	private static final String IP_ADDRESS_EXT = "http://p.smart.99.com";
-	
 	
 	//fortest
 	//public final static String API_KEY = "c2674528e7fab0e856d9b4a563168f19";

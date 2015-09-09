@@ -41,7 +41,7 @@ public class CloudHttp {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		//LogUtil.i("req：" + url + " " + jsonRequest.toString());
+		LogUtil.i("req：" + url + " " + jsonRequest.toString());
 		//String reqMethod = jsonRequest.optString("method");
 		//LogUtil.i("req： " + reqMethod);
 		MultiPartRequest request = new MultiPartRequest(method, url, jsonRequest, new Listener<JSONObject>() {
@@ -55,7 +55,7 @@ public class CloudHttp {
 					}
 					return;
 				}
-				//LogUtil.i("rsp: " + response.toString());
+				LogUtil.i("rsp: " + response.toString());
 				int retCode = getReturnCode(response);
 				//String msg = getErrMsg(response);
 				//LogUtil.i("rsp: " + "code="+retCode +",msg=\""+msg+"\"");

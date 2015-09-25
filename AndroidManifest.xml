@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.broadlink.beiangair"
-    android:versionCode="146"
-    android:versionName="1.4.6.0814" > 
+    android:versionCode="148"
+    android:versionName="1.4.8.0915" > 
 
     <uses-sdk
         android:minSdkVersion="8"

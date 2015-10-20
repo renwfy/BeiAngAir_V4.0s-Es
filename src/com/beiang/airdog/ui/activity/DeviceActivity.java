@@ -124,11 +124,11 @@ public class DeviceActivity extends BaseMultiPartActivity implements OnClickList
 		menu.setMenu_icon(R.drawable.ic_menu_help);
 		menus.add(menu);
 		
-		menu = new MenuEntity();
+		/*menu = new MenuEntity();
 		menu.setMenu_key("cloud");
 		menu.setMenu_name("云家庭");
 		menu.setMenu_icon(R.drawable.ic_menu_help);
-		menus.add(menu);
+		menus.add(menu);*/
 
 		menu = new MenuEntity();
 		menu.setMenu_key("share");
